@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Thara! 🎂</title>
+  <!-- Google Fonts for premium typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Playfair+Display:ital,wght@0,600;0,800;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient background particles -->
+  <div class="particles" id="particles"></div>
+
+  <div class="app-container">
+    <!-- Phase 1: Unlock Screen -->
+    <div id="unlock-screen" class="card fade-in">
+      <div class="lock-icon">🔐</div>
+      <h1 class="title">Secret Message</h1>
+      <p class="subtitle">Someone special has hidden a surprise for you...</p>
+      <button id="unlock-btn" class="btn">Unlock Surprise 🎁</button>
+    </div>
+
+    <!-- Phase 2: Countdown Screen -->
+    <div id="countdown-screen" class="countdown-container hidden">
+      <div class="balloons-container" id="balloons-container"></div>
+      <div class="countdown-circle">
+        <h1 id="countdown-number" class="countdown-number">10</h1>
+      </div>
+      <h2 id="firework-display" class="firework-display">💥 ✨ 🎆 ✨ 💥</h2>
+      <h3 class="preparing-text">🎉 Preparing Your Birthday Surprise 🎉</h3>
+    </div>
+
+    <!-- Phase 3: Final Birthday Card -->
+    <div id="birthday-card" class="card birthday-card hidden">
+      <div class="card-glow"></div>
+      <h1 class="card-emojis">💥 🎆 ✨ 🎇 💥 🎆 ✨ 🎇 💥</h1>
+      <h1 class="card-main-title">🎂 HAPPY BIRTHDAY THARA <br><span>AND MY DEAR PUCHAKANNI</span> 🎂</h1>
+      
+      <div class="divider"></div>
+      
+      <h2 class="card-subtitle">🎉 🎊 Celebration Time 🎊 🎉</h2>
+      
+      <p class="card-message">Adiyaeeeee Bujiki Unnaku Porantha Nall Vaalthukal Dii.....</p>
+      
+      <h1 class="card-sub-emojis">🎈 🎂 🎁 🎉 🎊 🎇 🎆 🎈</h1>
+      <h1 class="card-sub-emojis second">💖 🌟 🎂 🌟 💖</h1>
+      
+      <p class="card-footer-msg">May all your dreams come true!<br>And We Stay Together For Life Time...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
